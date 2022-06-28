@@ -1,0 +1,54 @@
+@import "../../styles/Constants.scss";
+
+.section-contact-form {
+  min-height: 300px;
+  padding: 48px;
+  max-width: 800px;
+  margin: 0 auto;
+
+  .left-side-menu {
+    .title {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 32px;
+      color: rgb(127, 73, 196);
+      padding-bottom: 24px;
+    }
+    .info {
+      font-family: "PT Serif";
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      color: rgb(12, 41, 82);
+      padding-bottom: 24px;
+    }
+    .form-input {
+      padding: 8px;
+      margin: 4px 8px;
+      background-color: lighten($block4-color, 15.7);
+      border-radius: 8px;
+      border: 0px;
+    }
+  }
+
+  .side-form {
+    border-left: 2px solid $block1-color;
+    padding-left: 24px;
+
+    .title {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;
+    }
+    .text {
+      font-family: "PT Serif";
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      color: rgb(19, 54, 102);
+      max-width: 240px;
+    }
+  }
+}
