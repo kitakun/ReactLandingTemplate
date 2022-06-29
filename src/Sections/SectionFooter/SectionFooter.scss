@@ -1,7 +1,10 @@
+@import "../../styles/Constants.scss";
+
 .footer {
-  border-top: 2px solid gray;
+  border-top: 2px solid lighten($color: $block1-color, $amount: 10);
   width: 100%;
   text-align: center;
   min-height: 120px;
-  background-image: linear-gradient(to bottom, rgb(202, 202, 202), rgb(182, 182, 182));
+  background-color: $block1-color;
+  color: white;
 }

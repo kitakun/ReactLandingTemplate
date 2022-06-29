@@ -1,0 +1,31 @@
+.bg-video-layout {
+  background: url("./fallback-1.png") 50% 50%;
+  background-size: cover;
+  position: relative;
+
+  .background-video {
+    height: 100%;
+    width: 100%;
+    // top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+    direction: ltr;
+
+    video {
+      object-fit: cover;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .content {
+    z-index: 2;
+    position: relative;
+  }
+}

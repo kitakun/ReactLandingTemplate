@@ -1,0 +1,12 @@
+@import "../../styles/Constants.scss";
+@import "../../styles/Functions.scss";
+
+.layout-our-projects {
+
+  .section-our-projects {
+    @include applyOnFullScreenHeight();
+    @include applyMaxWidthContent();
+    position: relative;
+    z-index: 2;
+  }
+}

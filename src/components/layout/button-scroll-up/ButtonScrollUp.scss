@@ -1,0 +1,37 @@
+.btn-scroll-up {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  width: 2rem;
+  height: 2rem;
+
+  .arrow {
+    content: "";
+    width: 0.8rem;
+    height: 0.8rem;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    display: block;
+    transition: all 0.25s ease-in-out;
+    transform: translate(0, 0);
+    opacity: 0;
+    cursor: default;
+
+    &.visible {
+      opacity: 1;
+      transform: translate(0, 0);
+      cursor: pointer;
+    }
+
+    &.up {
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+
+      &:active {
+        transform: rotate(-135deg) scale(0.8, 0.8);
+      }
+    }
+  }
+}

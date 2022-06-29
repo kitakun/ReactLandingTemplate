@@ -1,4 +1,15 @@
+@import "./Constants.scss";
+
 @mixin landingContent() {
   max-width: 1100px;
+  margin: 0 auto;
+}
+
+@mixin applyOnFullScreenHeight() {
+  min-height: 100vh;
+}
+
+@mixin applyMaxWidthContent() {
+  max-width: $max-content-width;
   margin: 0 auto;
 }

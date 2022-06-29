@@ -1,0 +1,40 @@
+.title-component {
+  @mixin titleFont() {
+    color: white;
+    text-align: center;
+    font-family: "Metrophobic", Sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    text-shadow: 0px 0px 29px #00ccff;
+  }
+
+  .title {
+    @include titleFont();
+    font-size: 44px;
+
+    padding-top: 84px;
+    margin-bottom: 38px;
+    padding-bottom: 22px;
+
+    transition: all 1.2s ease-in-out;
+    animation: 1.7s ease-in-out 0s infinite alternate blick_lights;
+
+    @keyframes blick_lights {
+      from {
+        text-shadow: 0px 0px 29px #00ccff;
+        border-bottom: 4px solid white;
+      }
+      to {
+        text-shadow: 0px 0px 29px #d400ff;
+        border-bottom: 4px solid #f5cbfd;
+      }
+    }
+  }
+
+  .subTitle {
+    @include titleFont();
+    font-size: 15px;
+    width: 300px;
+    margin: 0 auto;
+  }
+}

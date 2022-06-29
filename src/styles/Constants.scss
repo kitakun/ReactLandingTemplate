@@ -1,5 +1,9 @@
-$block1-color: rgb(127 73 196);
+$block1-color: #020922;
+$block2-color: rgba(0, 192, 153, 1);
+$block3-color: #000000;
 $block4-color: #f5d18e;
+
+$max-content-width: 800px;
 
 // Prefix string for custom CSS properties
 $prefix: "--";
@@ -16,5 +20,7 @@ $prefix: "--";
 
 body {
   @include define-custom-property("block1color", $block1-color);
+  @include define-custom-property("block2color", $block2-color);
+  @include define-custom-property("block3color", $block3-color);
   @include define-custom-property("block4color", $block4-color);
 }

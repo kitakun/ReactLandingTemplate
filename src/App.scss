@@ -1,3 +1,5 @@
+@import "./styles/Functions.scss";
+
 html,
 body {
   height: 100%;
@@ -50,5 +52,13 @@ td {
 
 // ----
 
+label {
+  color: white;
+}
+
 .root-layout {
+}
+
+.min-full-screen {
+  @include applyOnFullScreenHeight();
 }

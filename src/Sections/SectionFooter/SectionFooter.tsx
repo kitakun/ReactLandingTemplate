@@ -1,4 +1,4 @@
-import { FlexContainer } from "../../components/flex/FlexContainer";
+import { FlexContainer } from "../../components/layout/flex/FlexContainer";
 import "./SectionFooter.scss";
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
       flexDirection="column"
       justifyContent="center"
     >
-      All rights reserved {new Date().getFullYear()}.
+      Copyright © All rights reserved {new Date().getFullYear()}.
     </FlexContainer>
   );
 }

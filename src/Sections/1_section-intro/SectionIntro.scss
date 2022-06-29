@@ -1,0 +1,62 @@
+@import "../../styles/Functions.scss";
+$font-color: white;
+
+.section-intro {
+  @include landingContent();
+  min-height: calc(100vh - 110px);
+  padding: 72px 24px;
+  padding-bottom: 120px;
+  .side-content {
+    min-width: 400px;
+  }
+  h2 {
+    color: white;
+  }
+  .show-hide-animator {
+    color: rgb(169, 248, 253);
+    padding-bottom: 64px;
+    font-size: 32px;
+    font-weight: bold;
+    transition: all 1.2s ease-in-out;
+    width: 100px;
+    overflow: hidden;
+    animation: 1.7s ease-in-out 0s infinite alternate move_eye;
+
+    @keyframes move_eye {
+      from {
+        width: 100px;
+      }
+      to {
+        width: 0px;
+      }
+    }
+  }
+  .left-bar-content {
+    width: 400px;
+    margin-top: 60px;
+    .title {
+      color: $font-color;
+      font-size: 48px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-style: normal;
+      padding-bottom: 18px;
+    }
+    .content {
+      color: $font-color;
+      font-family: "PT Serif";
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-intro {
+    justify-content: flex-end;
+  }
+  .left-bar-content {
+    width: 90% !important;
+  }
+}

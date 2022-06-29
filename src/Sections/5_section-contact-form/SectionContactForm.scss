@@ -1,0 +1,63 @@
+@import "../../styles/Constants.scss";
+
+$small-text-color: rgb(147, 185, 241);
+
+.section-contact-form {
+  min-height: 80vh;
+  padding: 48px;
+  max-width: 800px;
+  margin: 0 auto;
+
+  .left-side-menu {
+    .title {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 32px;
+      color: rgb(162, 98, 245);
+      padding-bottom: 24px;
+    }
+    .info {
+      font-family: "PT Serif";
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      color: $small-text-color;
+      padding-bottom: 24px;
+    }
+    .form-input {
+      padding: 8px;
+      margin: 4px 8px;
+      background-color: rgba(lighten($block1-color, 55), 0.1);
+      border-radius: 2px;
+      border: 1px solid lighten($block1-color, 15);
+      color: white;
+
+      &::placeholder {
+        color: rgb(146, 146, 146);
+        opacity: 1;
+      }
+    }
+  }
+
+  .side-form {
+    border-left: 2px solid $block1-color;
+    padding-left: 24px;
+
+    .title {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;
+      color: $small-text-color;
+    }
+    .text {
+      font-family: "PT Serif";
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      color: lighten($color: $small-text-color, $amount: 15);
+      max-width: 240px;
+    }
+  }
+}

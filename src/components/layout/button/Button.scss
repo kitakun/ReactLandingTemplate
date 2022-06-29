@@ -1,0 +1,45 @@
+@import "../../../styles/Constants.scss";
+$default-border-color: rgba(255, 255, 255, 0.671);
+
+@mixin baseButton() {
+  padding: 8px 32px;
+  background-color: transparent;
+  border: 0px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  transform: translate(0, 0);
+  // &:hover {
+  //   background-color: rgba($color: $default-border-color, $alpha: 1);
+  //   color: $block1-color;
+  // }
+}
+
+.lp-btn {
+  &.var1 {
+    @include baseButton();
+    border: 1px solid $default-border-color;
+    border-radius: 16px;
+    &:hover {
+      background-color: rgba($color: $default-border-color, $alpha: 1);
+      color: $block1-color;
+    }
+    &:active {
+      transform: translate(0, 4px);
+    }
+  }
+
+  &.var2 {
+    @include baseButton();
+    border-bottom: 1px solid rgba($default-border-color, 0.5);
+    margin: 0px 4px;
+    &:hover {
+      top: 5px;
+      border-bottom: 2px solid $default-border-color;
+    }
+    &:active {
+      transform: scale(0.95, 0.95);
+    }
+  }
+}
