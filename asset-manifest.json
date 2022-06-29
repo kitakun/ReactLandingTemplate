@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactLandingTemplate/static/css/main.5a93885b.css",
-    "main.js": "/ReactLandingTemplate/static/js/main.af83c691.js",
+    "main.css": "/ReactLandingTemplate/static/css/main.41e8a37b.css",
+    "main.js": "/ReactLandingTemplate/static/js/main.89afe6ec.js",
     "static/js/787.678d0f42.chunk.js": "/ReactLandingTemplate/static/js/787.678d0f42.chunk.js",
-    "static/media/5f975b5d-o-consultancy-services_0cs07n0cs07n000000001.png": "/ReactLandingTemplate/static/media/5f975b5d-o-consultancy-services_0cs07n0cs07n000000001.a423336436aace678122.png",
+    "static/media/mid.mp4": "/ReactLandingTemplate/static/media/mid.35d0c01c9149ae973856.mp4",
+    "static/media/fallback-1.png": "/ReactLandingTemplate/static/media/fallback-1.0f751d66625d2d818633.png",
+    "static/media/PF-150x150.png": "/ReactLandingTemplate/static/media/PF-150x150.9a4fb862c48880734bd0.png",
     "static/media/c2337b01-horizons-powerbull.svg": "/ReactLandingTemplate/static/media/c2337b01-horizons-powerbull.6cc336d5805c2f7e6177a9de8367db17.svg",
     "static/media/ad2e7f73-o-saas-benefit-icon-01.svg": "/ReactLandingTemplate/static/media/ad2e7f73-o-saas-benefit-icon-01.ee8d2c727a3162c1f33f48ffda812aac.svg",
     "static/media/062ab54e-o-saas-benefit-icon-02.svg": "/ReactLandingTemplate/static/media/062ab54e-o-saas-benefit-icon-02.960174cc30cb2b759919a97ef920917a.svg",
     "static/media/433a1368-o-saas-benefit-icon-03.svg": "/ReactLandingTemplate/static/media/433a1368-o-saas-benefit-icon-03.f2f73b8b5a95e32c94287d48bef7bd5c.svg",
     "index.html": "/ReactLandingTemplate/index.html",
-    "main.5a93885b.css.map": "/ReactLandingTemplate/static/css/main.5a93885b.css.map",
-    "main.af83c691.js.map": "/ReactLandingTemplate/static/js/main.af83c691.js.map",
+    "main.41e8a37b.css.map": "/ReactLandingTemplate/static/css/main.41e8a37b.css.map",
+    "main.89afe6ec.js.map": "/ReactLandingTemplate/static/js/main.89afe6ec.js.map",
     "787.678d0f42.chunk.js.map": "/ReactLandingTemplate/static/js/787.678d0f42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a93885b.css",
-    "static/js/main.af83c691.js"
+    "static/css/main.41e8a37b.css",
+    "static/js/main.89afe6ec.js"
   ]
 }
