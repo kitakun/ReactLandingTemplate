@@ -8,6 +8,9 @@ $font-color: white;
   padding-bottom: 120px;
   .side-content {
     min-width: 400px;
+    @media screen and (max-width: 768px) {
+      min-width: auto;
+    }
   }
   h2 {
     color: white;

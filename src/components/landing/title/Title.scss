@@ -1,16 +1,26 @@
+$title-default-font-size: 44px;
+$title-font-size-on-small: 20px;
+
 .title-component {
   @mixin titleFont() {
     color: white;
     text-align: center;
     font-family: "Metrophobic", Sans-serif;
-    font-size: 44px;
+    font-size: $title-default-font-size;
     font-weight: 600;
     text-shadow: 0px 0px 29px #00ccff;
+
+    @media screen and (max-width: 768px) {
+      font-size: $title-font-size-on-small;
+    }
   }
 
   .title {
     @include titleFont();
-    font-size: 44px;
+    font-size: $title-default-font-size;
+    @media screen and (max-width: 768px) {
+      font-size: $title-font-size-on-small;
+    }
 
     padding-top: 84px;
     margin-bottom: 38px;
