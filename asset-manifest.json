@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactLandingTemplate/static/css/main.41e8a37b.css",
+    "main.css": "/ReactLandingTemplate/static/css/main.c2180923.css",
     "main.js": "/ReactLandingTemplate/static/js/main.89afe6ec.js",
     "static/js/787.678d0f42.chunk.js": "/ReactLandingTemplate/static/js/787.678d0f42.chunk.js",
     "static/media/mid.mp4": "/ReactLandingTemplate/static/media/mid.35d0c01c9149ae973856.mp4",
@@ -11,12 +11,12 @@
     "static/media/062ab54e-o-saas-benefit-icon-02.svg": "/ReactLandingTemplate/static/media/062ab54e-o-saas-benefit-icon-02.960174cc30cb2b759919a97ef920917a.svg",
     "static/media/433a1368-o-saas-benefit-icon-03.svg": "/ReactLandingTemplate/static/media/433a1368-o-saas-benefit-icon-03.f2f73b8b5a95e32c94287d48bef7bd5c.svg",
     "index.html": "/ReactLandingTemplate/index.html",
-    "main.41e8a37b.css.map": "/ReactLandingTemplate/static/css/main.41e8a37b.css.map",
+    "main.c2180923.css.map": "/ReactLandingTemplate/static/css/main.c2180923.css.map",
     "main.89afe6ec.js.map": "/ReactLandingTemplate/static/js/main.89afe6ec.js.map",
     "787.678d0f42.chunk.js.map": "/ReactLandingTemplate/static/js/787.678d0f42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41e8a37b.css",
+    "static/css/main.c2180923.css",
     "static/js/main.89afe6ec.js"
   ]
 }
